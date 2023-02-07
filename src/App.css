@@ -1,0 +1,5 @@
+.text-focus {
+  background: linear-gradient(135deg,#cb5eee,#4be1ec);
+  color: transparent;
+  background-clip: text;
+}
