@@ -9,12 +9,12 @@ const App = () => {
   return (
     <div className="bg-black overflow-x-hidden">
       <section className="section-one bg-[#131415] lg:h-screen px-8">
-        <h1 className="text-white text-4xl lg:6xl font-extrabold mb-8 pt-20">
+        <h1 className="text-white text-4xl lg:text-6xl font-extrabold mb-8 pt-20">
           A{" "}
           <span className="text-focus font-semibold text-4xl lg:text-6xl">
-            turn-key
+            turn-key 
           </span>{" "}
-          approach to continuous user discovery
+          approach to <br></br> continuous user discovery
         </h1>
         <h4 className="text-[gray] font-semibold mb-6">
           You've got a lot to take on so we take user research off your plate.
