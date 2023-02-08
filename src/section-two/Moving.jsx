@@ -10,7 +10,7 @@ const Moving = () => {
         Let's get
         <span className="text-background"> moving</span>
       </h2>
-      <div className="bg-[#131415] grid grid-cols-3 gap-x-8 px-[2rem] py-8">
+      <div className="bg-[#131415] grid lg:grid-cols-3 gap-8 px-[2rem] place-items-center py-8">
         {enterprises.map((enterprise, index) => (
           <div
             key={`enterprises-${index}`}
@@ -19,9 +19,10 @@ const Moving = () => {
               borderRadius: "5px",
               padding: "2rem",
               width: "22rem",
+              height: "32rem"
             }}
           >
-            <div className="text-4xl font-extrabold mb-4">
+            <div className="text-4xl font-extrabold mb-6">
               {enterprise.heading}
             </div>
             <p className="mb-8">{enterprise.title}</p>
@@ -35,7 +36,7 @@ const Moving = () => {
             <h4 className="font-extrabold text-2xl mb-8">
               {enterprise.amount}
             </h4>
-            <button className="bg-[#5e5df0] grid mx-auto px-6 py-2 rounded-full">Let's go</button>
+            <button className="bg-[#5e5df0] grid mx-auto px-7 py-3 rounded-full">Let's go</button>
           </div>
         ))}
       </div>
