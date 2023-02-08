@@ -5,18 +5,37 @@ import './Moving.css'
 const Moving = () => {
 
   return (
-    <section className="bg-black lg:h-screen px-8 py-[5rem] text-white">
+    <section className="bg-black px-8 py-[5rem] text-white">
       <h2 className="text-4xl lg:text-6xl sm:text-4xl mb-24 text-center font-extrabold">
         Let's get
         <span className="text-background"> moving</span>
       </h2>
-      <div className="bg-[#131415] grid grid-cols-3 px-4 py-4">
+      <div className="bg-[#131415] grid grid-cols-3 gap-x-8 px-[2rem] py-8">
         {enterprises.map((enterprise, index) => (
-          <div key={`enterprises-${index}`}>
-            <div>
-              <div>{enterprise.heading}</div>
-              <div>{enterprise.title}</div>
+          <div
+            key={`enterprises-${index}`}
+            style={{
+              background: enterprise.color,
+              borderRadius: "5px",
+              padding: "2rem",
+              width: "22rem",
+            }}
+          >
+            <div className="text-4xl font-extrabold mb-4">
+              {enterprise.heading}
             </div>
+            <p className="mb-8">{enterprise.title}</p>
+            <p>{enterprise.subtitle}</p>
+            <ul className="pl-6 list-disc mb-8">
+              <li>{enterprise.item1}</li>
+              <li>{enterprise.item2}</li>
+              <li>{enterprise.item3}</li>
+              <li>{enterprise.item4}</li>
+            </ul>
+            <h4 className="font-extrabold text-2xl mb-8">
+              {enterprise.amount}
+            </h4>
+            <button className="bg-[#5e5df0] grid mx-auto px-6 py-2 rounded-full">Let's go</button>
           </div>
         ))}
       </div>

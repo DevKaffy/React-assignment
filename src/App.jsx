@@ -6,8 +6,8 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="overflow-auto">
-      <section className="section-one bg-[#131415] lg:h-screen px-8 overflow-auto">
+    <div>
+      <section className="section-one bg-[#131415] lg:h-screen px-8">
         <h1 className="text-white text-5xl font-extrabold mb-8 pt-20">
           A <span className="text-focus font-semibold text-4xl lg:text-6xl">turn-key</span> approach to continuous
           user discovery
