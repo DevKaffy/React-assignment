@@ -1,5 +1,5 @@
 # React Assignment
-Cloning some sections landing page
+Cloning some sections in the Userhive landing page
 
 ## Prequisite
 - Your browser version should be up to date for better experience
@@ -14,6 +14,9 @@ Cloning some sections landing page
 
 ## Preview here
 [Go Live](https://react-map-components.netlify.app/)
+![screenshot](/public/png/Screenshot%20from%202023-02-08%2015-53-16.png)
+![screenshot](/public/png/Screenshot%20from%202023-02-08%2015-54-28.png)
+![screenshot](/public/png/Screenshot%20from%202023-02-08%2015-54-42.png)
 
 
 ## Contact
